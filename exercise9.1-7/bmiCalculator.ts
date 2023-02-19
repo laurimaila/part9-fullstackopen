@@ -1,4 +1,9 @@
-const calculateBmi = (height: number, weight: number) => {
+export interface BmiParameterValues {
+    height: number;
+    weight: number;
+}
+
+export const calculateBmi = (height: number, weight: number) => {
 
     const bmi = weight / (height / 100) ** 2;
 
@@ -19,6 +24,4 @@ const calculateBmi = (height: number, weight: number) => {
     } else {
         return ("Obese (Class III)");
     }
-}
-
-export default calculateBmi;
+};
