@@ -1,3 +1,3 @@
-# Full Stack Open 2023 - Part 9: TypeScript
+# Full Stack Open 2023 - Part 9 <br/> TypeScript
 
-## TypeScript course assignments
+### Lauri Maila
